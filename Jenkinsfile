@@ -6,7 +6,7 @@ stage('Test') {
 steps {
 sh 'node --version'
 sh 'svn --version'
-sh ping google.com 
+sh 'ping google.com' 
 }
 }
 }
